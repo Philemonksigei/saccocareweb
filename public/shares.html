@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>shares</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="main_body" >
+    <div class="shares" style="padding-left:40%; padding-top:5%;">
+      <p> <b>Updates the Member Shares here</b></p>
+      <label for="memberid">Membership ID:</label> <br> <input type="number" name="memberid" placeholder="Member ID"style="width:30%; text-align:center;" id="member_id_field"> <br>
+      <label for="amount">Amount Contributed:</label>  <br> <input type="number" name="amount" placeholder="shares amount"style="width:30%; text-align:center;" id="amount_field">  <br>
+         <label for="amountdue">Total Shares:</label>  <br><input type="number" name="amountdue" placeholder="amount due"style="width:30%; text-align:center;" id="amountdue_field"> <br>
+         <label for="date">Date:</label>  <br><input type="date" name="date" placeholder="01/01/2020"style="width:30%; text-align:center;" id="date_field"> <br>
+         <label for="invoice">Invoice NO:</label>  <br><input type="number" name="invoice" placeholder="100001"style="width:30%; text-align:center;" id="invoice_field"> <br> <br>
+        <select id="year_select" class="year" name="year"style="width:30%;text-align:center;">
+             <option >-YEAR-</option>
+             <option >2018</option>
+            <option >2019</option>
+            <option >2020</option>
+            <option >2021</option>
+            <option >2022</option>
+            <option >2023</option>
+            <option >2024</option>
+            <option >2025</option>
+       </select>  <br> <br>
+       <select id="month_select" class="month" name="Month"style="width:30%;text-align:center;">
+         <option >-MONTH-</option>
+         <option >January</option>
+         <option >February</option>
+         <option >March</option>
+         <option >April</option>
+         <option >May</option>
+         <option >June</option>
+         <option >July</option>
+         <option >August</option>
+         <option >September</option>
+         <option >October</option>
+         <option >November</option>
+         <option >December</option>
+       </select>  <br> <br>
+       <button type="button" name="button" style="width:30%; color: white; background-color: green;" onclick="update_shares()">Update shares</button> <br>
+  </div>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-storage.js"></script>
+  <script src="index.js"></script>
+  </body>
+</html>
