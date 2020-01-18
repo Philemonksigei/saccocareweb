@@ -1,12 +1,12 @@
 // Your web app's Firebase configuration
 var firebaseConfig = {
-  apiKey: "AIzaSyD2eaGwIXS2FBuh2V8qCwnM8cfNmdBeSk0",
-  authDomain: "saccocare-4f16f.firebaseapp.com",
-  databaseURL: "https://saccocare-4f16f.firebaseio.com",
-  projectId: "saccocare-4f16f",
-  storageBucket: "saccocare-4f16f.appspot.com",
-  messagingSenderId: "107936396681",
-  appId: "1:107936396681:web:5aff8e29690ee11294dd58"
+  apiKey: "API KEY",
+  authDomain: "PROJECT DOMAIN",
+  databaseURL: "https://--URL",
+  projectId: "--ID--",
+  storageBucket: "--HELLO--",
+  messagingSenderId: "MMSID",
+  appId: "APPID"
                   };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
